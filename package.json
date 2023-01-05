@@ -1,0 +1,16 @@
+{
+  "name": "trengo_cypress_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:execution": "cypress run",
+    "cypress:runner": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.3.0"
+  }
+}
