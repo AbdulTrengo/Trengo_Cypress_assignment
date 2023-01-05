@@ -20,8 +20,8 @@ This template will help you to have a testing framework as per the standards of 
 
 ## Test Scenarios
 ### Web Automation Test Scenarios
-|Feature    | Description | Expected |
-|--------   |-------------|----------|
+|Feature    | Description |
+|--------   |-------------|
 |LogIn| Validate user login with both valid and invalid credentials |
 |Create custome channel| creates the custom channel using custom name & checking the channel is created successfully |
 |Create team| creates team & add team members & channel in it & checking the team is created successfully |

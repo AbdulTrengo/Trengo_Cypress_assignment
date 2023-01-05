@@ -9,8 +9,8 @@ const teamUrl = urls.teamUrl;
 const team = new TeamPage();
 const logInPageUrl = urls.loginInUrl;
 
-describe("Custom Channel Page tests", () => {
-  beforeEach("Navigate to Custom Channel Page", () => {
+describe("Teams Page tests", () => {
+  beforeEach("Navigate to Teams Page", () => {
     cy.visit(`${logInPageUrl}`);
     logInPage.enterUserName(Cypress.env("username"));
     logInPage.enterPassword(Cypress.env("password"));
